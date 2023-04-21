@@ -177,7 +177,7 @@ function VLib:Window(textgame)
 	CircleName.BackgroundTransparency = 1.000
 	CircleName.Size = UDim2.new(0, 38, 0, 37)
 	CircleName.Font = Enum.Font.Gotham
-	CircleName.Text = "企鵝"
+    	CircleIcon = "rbxthumb://type=Asset&id=5060864302&w=150&h=150"
 	CircleName.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CircleName.TextSize = 16.000
 
