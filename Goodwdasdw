@@ -163,7 +163,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Position = UDim2.new(0.847561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.GothamSemibold
-	BindButton.Text = "[RightControl]"
+	BindButton.Text = "V34"
 	BindButton.TextColor3 = Color3.fromRGB(147,112,219)
 	BindButton.TextSize = 13.000
 
@@ -258,7 +258,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 		TabButton.Name = text.."Server"
 		TabButton.Text = text
 		TabButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-	    TabButton.BorderColor3 = Color3.fromRGB(147,112,219)
+	    TabButton.BorderColor3 = Color3.fromRGB(192, 192, 192)
         TabButton.BorderSizePixel = 3
 		TabButton.Size = UDim2.new(0, 130, 0, 23)
 		TabButton.Font = Enum.Font.GothamSemibold
