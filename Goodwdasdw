@@ -258,7 +258,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 		TabButton.Name = text.."Server"
 		TabButton.Text = text
 		TabButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-	    TabButton.BorderColor3 = Color3.fromRGB(128, 0, 128)
+	    TabButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
         TabButton.BorderSizePixel = 3
 		TabButton.Size = UDim2.new(0, 130, 0, 23)
 		TabButton.Font = Enum.Font.GothamSemibold
@@ -512,7 +512,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Dropdown.Name = "Dropdown"
 			Dropdown.Parent = MainFramePage
-			Dropdown.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+			Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 			Dropdown.ClipsDescendants = true
 			Dropdown.Size = UDim2.new(0, 470, 0, 31)
 			
