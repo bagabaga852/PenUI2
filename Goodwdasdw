@@ -163,7 +163,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Position = UDim2.new(0.847561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.GothamSemibold
-	BindButton.Text = "Hide Script-[LeftAlt]隱藏腳本[右邊Alt]"
+	BindButton.Text = "Hide Script-[LeftAlt]"
 	BindButton.TextColor3 = Color3.fromRGB(255, 250, 250)
 	BindButton.TextSize = 13.000
 
@@ -348,7 +348,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Button.Name = "Button"
 			Button.Parent = MainFramePage
-			Button.BackgroundColor3 = Color3.fromRGB(0, 0, 205)
+			Button.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
 			Button.Size = UDim2.new(0, 470, 0, 31)
 			
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -418,7 +418,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = MainFramePage
-			Toggle.BackgroundColor3 = Color3.fromRGB(0,0,255)
+			Toggle.BackgroundColor3 = Color3.fromRGB(255,255,255)
 			Toggle.Size = UDim2.new(0, 470, 0, 31)
 
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -564,7 +564,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			DropButton.Size = UDim2.new(0, 470, 0, 31)
 			DropButton.Font = Enum.Font.SourceSans
 			DropButton.Text = ""
-			DropButton.TextColor3 = Color3.fromRGB(0,0,255)
+			DropButton.TextColor3 = Color3.fromRGB(255,255,255)
 			DropButton.TextSize = 14.000
 
 			for i,v in next,option do
@@ -713,7 +713,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Slider.Name = "Slider"
 			Slider.Parent = MainFramePage
-			Slider.BackgroundColor3 = Color3.fromRGB(0,0,255)
+			Slider.BackgroundColor3 = Color3.fromRGB(255,255,255)
 			Slider.BackgroundTransparency = 0
 			Slider.Size = UDim2.new(0, 470, 0, 51)
 
@@ -882,7 +882,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Textbox.Name = "Textbox"
 			Textbox.Parent = MainFramePage
-			Textbox.BackgroundColor3 = Color3.fromRGB(0,0,255)
+			Textbox.BackgroundColor3 = Color3.fromRGB(255,255,255)
 			Textbox.BackgroundTransparency = 0
 			Textbox.Size = UDim2.new(0, 470, 0, 31)
 
