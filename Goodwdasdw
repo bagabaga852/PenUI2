@@ -151,7 +151,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
 	Hub.Text = "  |  "..gamename
-	Hub.TextColor3 = Color3.fromRGB(255, 0, 0)
+	Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Hub.TextSize = 17.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -164,7 +164,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.GothamSemibold
 	BindButton.Text = "V34"
-	BindButton.TextColor3 = Color3.fromRGB(255, 215, 0)
+	BindButton.TextColor3 = Color3.fromRGB(127, 255, 212)
 	BindButton.TextSize = 13.000
 
 	local Tab = Instance.new("Frame")
@@ -348,7 +348,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Button.Name = "Button"
 			Button.Parent = MainFramePage
-			Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Button.Size = UDim2.new(0, 470, 0, 31)
 			
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -418,7 +418,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = MainFramePage
-			Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Toggle.Size = UDim2.new(0, 470, 0, 31)
 
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -446,7 +446,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			Label.Size = UDim2.new(0, 468, 0, 29)
 			Label.Font = Enum.Font.GothamSemibold
 			Label.Text = text
-			Label.TextColor3 = Color3.fromRGB(225, 225, 225)
+			Label.TextColor3 = Color3.fromRGB(225, 0, 0)
 			Label.TextSize = 15.000
 
 			ToggleImage.Name = "ToggleImage"
@@ -713,7 +713,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Slider.Name = "Slider"
 			Slider.Parent = MainFramePage
-			Slider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Slider.BackgroundTransparency = 0
 			Slider.Size = UDim2.new(0, 470, 0, 51)
 
@@ -782,7 +782,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			circlebar.Name = "circlebar"
 			circlebar.Parent = bar1
-			circlebar.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+			circlebar.BackgroundColor3 = Color3.fromRGB(225, 0, 0)
 			circlebar.Position = UDim2.new(1, -2, 0, -3)
 			circlebar.Size = UDim2.new(0, 10, 0, 10)
 
@@ -882,7 +882,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Textbox.Name = "Textbox"
 			Textbox.Parent = MainFramePage
-			Textbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Textbox.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Textbox.BackgroundTransparency = 0
 			Textbox.Size = UDim2.new(0, 470, 0, 31)
 
