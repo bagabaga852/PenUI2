@@ -348,7 +348,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Button.Name = "Button"
 			Button.Parent = MainFramePage
-			Button.BackgroundColor3 = _G.Color
+			Button.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			Button.Size = UDim2.new(0, 470, 0, 31)
 			
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -418,7 +418,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = MainFramePage
-			Toggle.BackgroundColor3 = _G.Color
+			Toggle.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			Toggle.Size = UDim2.new(0, 470, 0, 31)
 
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -474,7 +474,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-						{BackgroundColor3 = _G.Color}
+						{BackgroundColor3 = Color3.fromRGB(0,0,255)}
 					):Play()
 				else
 					toggled = false
@@ -494,7 +494,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 				TweenService:Create(
 					Circle,
 					TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-					{BackgroundColor3 = _G.Color}
+					{BackgroundColor3 = Color3.fromRGB(0,0,255)}
 				):Play()
 				pcall(callback,toggled)
 			end
@@ -713,7 +713,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Slider.Name = "Slider"
 			Slider.Parent = MainFramePage
-			Slider.BackgroundColor3 = _G.Color
+			Slider.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			Slider.BackgroundTransparency = 0
 			Slider.Size = UDim2.new(0, 470, 0, 51)
 
@@ -768,7 +768,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			bar1.Name = "bar1"
 			bar1.Parent = bar
-			bar1.BackgroundColor3 = _G.Color
+			bar1.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			bar1.BackgroundTransparency = 0
 			bar1.Size = UDim2.new(set/max, 0, 0, 5)
 
@@ -791,7 +791,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			slidervalue.Name = "slidervalue"
 			slidervalue.Parent = sliderr
-			slidervalue.BackgroundColor3 = _G.Color
+			slidervalue.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			slidervalue.BackgroundTransparency = 0
 			slidervalue.Position = UDim2.new(0, 395, 0, 5)
 			slidervalue.Size = UDim2.new(0, 65, 0, 18)
@@ -882,7 +882,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Textbox.Name = "Textbox"
 			Textbox.Parent = MainFramePage
-			Textbox.BackgroundColor3 = _G.Color
+			Textbox.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			Textbox.BackgroundTransparency = 0
 			Textbox.Size = UDim2.new(0, 470, 0, 31)
 
@@ -1023,7 +1023,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Line.Name = "Line"
 			Line.Parent = Linee
-			Line.BackgroundColor3 = _G.Color
+			Line.BackgroundColor3 = Color3.fromRGB(0,0,255)
 			Line.BorderSizePixel = 0
 			Line.Position = UDim2.new(0, 0, 0, 10)
 			Line.Size = UDim2.new(0, 470, 0, 1)
