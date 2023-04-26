@@ -348,7 +348,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Button.Name = "Button"
 			Button.Parent = MainFramePage
-			Button.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+			Button.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Button.Size = UDim2.new(0, 470, 0, 31)
 			
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -418,7 +418,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = MainFramePage
-			Toggle.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Toggle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Toggle.Size = UDim2.new(0, 470, 0, 31)
 
 			UICorner.CornerRadius = UDim.new(0, 5)
@@ -440,7 +440,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Label.Name = "Label"
 			Label.Parent = Toggle
-			Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			Label.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Label.BackgroundTransparency = 1.000
 			Label.Position = UDim2.new(0, 1, 0, 1)
 			Label.Size = UDim2.new(0, 468, 0, 29)
@@ -451,7 +451,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			ToggleImage.Name = "ToggleImage"
 			ToggleImage.Parent = Toggle
-			ToggleImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
+			ToggleImage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			ToggleImage.Position = UDim2.new(0, 415, 0, 5)
 			ToggleImage.Size = UDim2.new(0, 45, 0, 20)
 
@@ -713,7 +713,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Slider.Name = "Slider"
 			Slider.Parent = MainFramePage
-			Slider.BackgroundColor3 = Color3.fromRGB(255,255,255)
+			Slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Slider.BackgroundTransparency = 0
 			Slider.Size = UDim2.new(0, 470, 0, 51)
 
