@@ -163,7 +163,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Position = UDim2.new(0.847561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.GothamSemibold
-	BindButton.Text = "Hide Script-[LeftAlt]"
+	BindButton.Text = "V34"
 	BindButton.TextColor3 = Color3.fromRGB(255, 250, 250)
 	BindButton.TextSize = 13.000
 
