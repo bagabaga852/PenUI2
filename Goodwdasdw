@@ -85,7 +85,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	local abc = false
 	local logo = logo or 0
 	local currentpage = ""
-	local keybind = keybind or Enum.KeyCode.RightControl
+	local keybind = keybind or Enum.KeyCode.LeftControl
 	local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 	if gamename == "" then 
 	    gamename = ""..PlaceName.Name
@@ -163,7 +163,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Position = UDim2.new(0.847561002, 0, 0, 0)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.GothamSemibold
-	BindButton.Text = "[RightControl]"
+	BindButton.Text = "[LeftControl]"
 	BindButton.TextColor3 = Color3.fromRGB(127, 255, 212)
 	BindButton.TextSize = 13.000
 
